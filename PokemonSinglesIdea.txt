@@ -5,6 +5,8 @@ A creature has an ability two choices for most creatures(this directly affects g
 A creature has a nature
 A creature has Training Points(Evs)
 A creature has a status condition(Default : none )
+A creature has a position on screen right or left in double battles
+A creature can hold one item
 
 What is a nature?
 this affects certain stats notably it increase one stat and decreases another calculated after adding stats acquired from training Points
@@ -45,3 +47,7 @@ This is affecting abilities
 This Countering(Endure)
 This is Charging
 This effects shielding(substitute)
+
+What is an Item?
+a passive ability that is equipped on a creature directly effects gameplay similar to abilities
+not unique to creature this is what separates an ability from an item
