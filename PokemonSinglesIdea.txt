@@ -1,1 +1,31 @@
-wtf
+*/6 Creatures Per Team
+A creature has stats
+A creature has moves
+A creature has a nature
+A creature has Training Points(Evs)
+
+What is a nature?
+this affects certain stats
+
+What are stats?
+These are base stats
+Attack
+Special Attack
+Defense
+Special Defense
+Health
+Speed
+These are base stats are different between species are determined by the developer
+for example you can determine which species is faster by default by adjusting the speed base stat(this affects gameplay by determining turn order actively on the fly)
+some species of creature level-up (like in LoR when a condition is met) these changes are only reflected in art their character art and their base stats
+
+What are Training Points?
+These are what we use to create our custom creatures in other words train them to fit a specific role on our Team
+For every 4 training points you invest in a stat you raise that creatures base stat by 1 point
+
+
+What is a move?
+each creature has 4 slots for moves
+each move has the number of times you can use it
+each move has the damage it does that may be 0 or more
+each move can affect the stats of the creature
