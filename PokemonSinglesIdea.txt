@@ -1,11 +1,13 @@
 */6 Creatures Per Team
 A creature has stats
-A creature has moves
+A creature has 4 move slots
+A creature has an ability two choices for most creatures(this directly affects gameplay)
 A creature has a nature
 A creature has Training Points(Evs)
+A creature has a status condition(Default : none )
 
 What is a nature?
-this affects certain stats
+this affects certain stats notably it increase one stat and decreases another calculated after adding stats acquired from training Points
 
 What are stats?
 These are base stats
@@ -21,11 +23,25 @@ some species of creature level-up (like in LoR when a condition is met) these ch
 
 What are Training Points?
 These are what we use to create our custom creatures in other words train them to fit a specific role on our Team
-For every 4 training points you invest in a stat you raise that creatures base stat by 1 point
-
+For every 4 training points you spend on a stat you raise that creatures base stat by 1 point
+you are only allowed a maximum of 510(for gameplay I chose to make this 512 so its divisible by 4 ) total training points per creature
+you can only invest up to a maximum of 255 training points per stat
 
 What is a move?
 each creature has 4 slots for moves
 each move has the number of times you can use it
 each move has the damage it does that may be 0 or more
-each move can affect the stats of the creature
+each move may have an effect on the stats of a creature both ally and enemy
+each move has an accuracy which determines the chances of it hitting
+
+What is an ability?
+this is a passive effect each creature has that is unique to that creature and directly effects gameplay
+
+What is a status condition
+This damage over time(Dots)
+This is things that effect taking your turn
+This that effect switching party members
+This is affecting abilities
+This Countering(Endure)
+This is Charging
+This effects shielding(substitute)
