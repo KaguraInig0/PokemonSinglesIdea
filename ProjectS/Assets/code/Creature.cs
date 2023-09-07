@@ -1,17 +1,30 @@
 using System.Collections;
-using Systems.Collections.Generic;
+using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 
-  [CreateAssetMenu(fileName = "New Champion" , menuName = "Champion")]
-public class Creatures
+[CreateAssetMenu(fileName = "New Champion", menuName = "Champion")]
+public class Creature : ScriptableObject
 {
-    public sprite champPicture;
-    public string champName;
+    public class Champion
+    {
 
-    public double Defense;
-    public double SpAttack;
-    public double SpDefense;
-    public double Health;
-    public double Speed;
+
+
+        public Sprite champPicture;
+        public string champName;
+
+        public double Attack;
+        public double Defense;
+        public double SpAttack;
+        public double SpDefense;
+        public double Health;
+        public double Speed;
+    }
+
+
+
 }
+   
+

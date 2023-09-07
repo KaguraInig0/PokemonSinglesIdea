@@ -1,36 +1,38 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
+using static Creature;
 
-public class Bomboclat : Creatures
+public class SingleCharacterScript : MonoBehaviour
 {
-  private double Defense;
-  private double SpAttack;
-  private double SpDefense;
-  private double Health;
-  private double Speed;
 
-  public double getAttack() {return Attack;}
-  public double getDefense() {return Defense;}
+    private void Start()
+    {
 
 
-
-  static void Main(string[] args)
-  {
-
-      Creatures Bomboclat = new Creatures();
-
-      Bomboclat.Attack = 5;
-      Bomboclat.Defense = 10;
-
-      double attackValue = Bomboclat.getAttack();
-      double defenseValue = Bomboclat.getDefense();
-
-
-      Console.WriteLine("Attack: " + attackValue);
-      Console.WriteLine("Defense: " + defenseValue);
+        Champion Bomboclat = new Champion();
+        Bomboclat.Attack = 60;
+        Bomboclat.Defense = 60;
+        Bomboclat.SpAttack = 60;
+        Bomboclat.SpDefense = 60;
+        Bomboclat.Health = 60;
+        Bomboclat.Speed = 60;
 
 
 
-  }
+
+
+
+    }
 
 
 }
+
+
+     
+
+
+      
+
+
