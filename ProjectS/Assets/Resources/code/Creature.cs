@@ -4,27 +4,42 @@ using UnityEditor;
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "New Champion", menuName = "Champion")]
+[CreateAssetMenu(fileName = "Champion", menuName = "Champion/Create new Champion")]
+
 public class Creature : ScriptableObject
 {
-    public class Champion
-    {
+    [SerializeField] string champName;
 
+    [TextArea]
+    [SerializeField] string descripton;
 
+    [SerializeField] Sprite champPicture;
 
-        public Sprite champPicture;
-        public string champName;
+    [SerializeField] champType type1;
+    [SerializeField] champType type2;
 
-        public double Attack;
-        public double Defense;
-        public double SpAttack;
-        public double SpDefense;
-        public double Health;
-        public double Speed;
-    }
-
-
-
+    //BaseStats
+    [SerializeField] int Hp;
+    [SerializeField] int attackDamage;
+    [SerializeField] int armor;
+    [SerializeField] int abilityPower;
+    [SerializeField] int magicResist;
+    [SerializeField] int speed;
 }
    
+
+public enum champType
+{
+    None,
+    Ionia,
+    Noxus,
+    Freljord,
+    Demacia,
+    Bilgewater,
+    PiltoverZaun,
+    ShadowIsles,
+    Shurima,
+    Targon,
+    BandleCity,
+}
 
