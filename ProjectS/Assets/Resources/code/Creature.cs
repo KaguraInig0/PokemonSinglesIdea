@@ -13,7 +13,7 @@ public class Creature : ScriptableObject
     [TextArea]
     [SerializeField] string descripton;
 
-    [SerializeField] Sprite champPicture;
+    public Sprite champPicture;
 
     [SerializeField] champType type1;
     [SerializeField] champType type2;
@@ -25,6 +25,8 @@ public class Creature : ScriptableObject
     [SerializeField] int abilityPower;
     [SerializeField] int magicResist;
     [SerializeField] int speed;
+
+
 }
    
 
